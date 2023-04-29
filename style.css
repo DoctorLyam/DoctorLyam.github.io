@@ -62,10 +62,9 @@ body {
 
 .doctorlyam{
     position: relative;
-    transform: translate(31%, 180%);
+    transform: translate(35%, 210%);
     font-family: "cyber1";
-    font-size: 95px;
-    -webkit-text-fill-color: transparent;
+    font-size: 85px;
     -webkit-text-stroke: 0.2px rgb(44, 42, 42);
     background: linear-gradient(
         to right,
