@@ -65,7 +65,8 @@ body {
     transform: translate(31%, 180%);
     font-family: "cyber1";
     font-size: 95px;
-    text-shadow: 4px 4px 4px #000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.2px rgb(44, 42, 42);
     background: linear-gradient(
         to right,
         #e78b12 20%,
