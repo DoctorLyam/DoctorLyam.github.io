@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "cyber1";
+    src: url("fonts/Roadrage-owgBd.otf");
+        font-weight: normal;
+        font-style: normal;
+}
+ 
+@font-face {
+    font-family: "draw";
+    src: url("fonts/Tarrget3DRegular-azVx.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "draw2";
+    src: url("fonts/TarrgetGradientItalic-zzjG.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+		background: url(image/wallpaper2.jpg); /* Фоновый цвет и фоновый рисунок*/
+        background-position:top;
+        
+        color: #d0a1db; /*Цвет текста на странице*/
+    }
+
+.container{
+    max-width: 1920px;
+    max-height: 2000px;
+    margin: 0px auto;
+    padding: 0px 15px
+}
+
+@media (max-width:1920px){
+    .container{
+        max-width: 970px;
+        max-height: 500px
+    }
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+        max-height: 500px
+    }
+}
+
+@media (max-width:767px){
+    .container{
+        max-width: none;
+        max-height: 500px
+    }
+}
+
+.ava1 {
+    position: absolute;
+    top: 5%;
+    left:0%
+}
+
+.doctorlyam{
+    position: relative;
+    transform: translate(31%, 180%);
+    font-family: "cyber1";
+    font-size: 95px;
+    text-shadow: 4px 4px 4px #000;
+    background: linear-gradient(
+        to right,
+        #e78b12 20%,
+        #d10d68 30%,
+        #7512e7 70%,
+        #1299e7 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 4s ease-in-out infinite alternate;
+}    
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+.audio{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    display: block;
+    width: 500px;
+    height: 30px; 
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #a31975;
+     color: #000;
+     }
+
+
+.ava2{
+    display: block;
+    position: absolute;
+    left: -10%;
+    top: 140%;
+}
+
+.ava2:hover{
+    display: block;
+    content: url('image/ava002.png');
+    position: absolute;
+    left: -10%;
+    top: 140%;
+
+}
+
+/* .heart{
+    position: absolute;
+    left: 80%;
+    top: 215%;
+}
+
+.heart:hover{
+    content: url('image/heart2.png');
+    position: absolute;
+    left: 77%;
+    top: 215%;
+} */
+
+.bio{
+    position: relative;
+    transform: translate(15%, 250%);
+    font-family: "draw2";
+    font-size: 40px;   
+}
+
+p {
+    display: inline-block;
+    margin: 10px 0
+  }
