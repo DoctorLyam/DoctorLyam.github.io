@@ -63,9 +63,9 @@ body {
 .doctorlyam{
     display: inline-block;
     position: relative;
-    transform: translate(62%, 210%);
+    transform: translate(77%, 250%);
     font-family: "cyber1";
-    font-size: 85px;
+    font-size: 75px;
     -webkit-text-stroke: 0.2px rgb(44, 42, 42);
     background: linear-gradient(
         to right,
@@ -77,7 +77,7 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-size: 500%;
+    background-size: 500% auto;
     animation: textShine 4s ease-in-out infinite alternate;
 }    
 
